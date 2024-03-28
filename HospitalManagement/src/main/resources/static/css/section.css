@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.maindivider {
+	background-color: #A3D5FF;
+	border-style: groove;
+	width: 95%;
+	height: 50%;
+	
+}
+
+.detailssection {
+	display: flex;
+	
+}
+
+.inputs {
+	padding: 10px;
+}
+
+.inputs input::placeholder {
+	color: red;
+}
+
+.inputs1 {
+	padding: 10px;
+}
+
+.inputs2 {
+	padding-top:15px;
+}
+
+.titleSelect {
+	width: 100px;
+	height: 28px;
+	color: red;
+}
+
+.Select {
+	width: 100px;
+	height: 23px;
+}
+
+.inputboxes {
+	width: 300px;
+	height: 23px;
+}
+
+.inputboxes-2 {
+	width: 150px;
+	height: 23px;
+}
+.titleSelect-2{
+	width: 108px;
+	height: 28px;
+	
+}
+
+.titleSelect-1 {
+	width: 203px;
+	height: 28px;
+	
+}
+
+.titleSelect-3 {
+	margin-top:20px;
+	height: 28px;
+	width: 203px;
+}
+
+.smallbox {
+	width: 42px;
+	height: 23px;
+}
+
+.numbers {
+	width: 182px;
+	height: 23px;
+}
+
+.smallbox-selector {
+	width: 100px;
+	height: 28px;
+}
+
+.addressbar {
+	width: 300px;
+	height: 50px;
+}
+.notificationDiv {
+    padding: 30px;
+    padding-bottom:15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  

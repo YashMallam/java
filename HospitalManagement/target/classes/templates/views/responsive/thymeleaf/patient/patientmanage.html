@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>patient management</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/patient.css}">
+</head>
+<body>
+	<div class="container">
+		<div class="sidebar">
+			<div
+				th:replace="/views/responsive/thymeleaf/fragments/common/sidebar :: sidebar"></div>
+		</div>
+		<div class="content">
+			<div
+				th:replace="/views/responsive/thymeleaf/fragments/common/headsection :: headersection "></div>
+
+			<div
+				th:replace="/views/responsive/thymeleaf/fragments/common/type :: type "></div>
+			<div
+				th:replace="/views/responsive/thymeleaf/fragments/common/section :: section "></div>
+              
+              <div class="splitter">
+                     <div class="splittedsection">
+                      <div
+				th:replace="/views/responsive/thymeleaf/fragments/common/appointment :: appointments "></div>
+                     </div>
+              
+                       <div class="splittedsection">
+                       <div
+				th:replace="/views/responsive/thymeleaf/fragments/common/feedetails :: feedetails "></div>
+                     </div>
+                     </div>
+              
+              </div>
+
+
+
+			
+		</div>
+	</div>
+
+</body>
+</html>

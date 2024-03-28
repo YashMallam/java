@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+  <head>
+  <title>Bootstrap Example</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+
+	
+ <div th:replace="/views/responsive/thymeleaf/fragments/common/headsection :: headersection"></div> 
+ <div th:replace="/views/responsive/thymeleaf/fragments/common/type :: type"></div>
+ 
+ 
+ 
+ <div style="display: flex;">
+ <div style="display: flex;">
+ 		<div th:replace="/views/responsive/thymeleaf/fragments/common/sidebar :: sidebar"></div>
+ 
+ </div>
+ <div style="display: flex;">
+ 
+ <div class="container">
+ 
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#personel">Personal Info</a></li>
+    
+    <li><a data-toggle="tab" href="#fee">Fee</a></li>
+    <li><a data-toggle="tab" href="#admission">Admission</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="personel" class="tab-pane fade in active">
+     
+      	<div th:replace="/views/responsive/thymeleaf/fragments/common/section:: section"></div>
+    </div>
+    
+    <div id="fee" class="tab-pane fade">
+     	<div th:replace="/views/responsive/thymeleaf/fragments/common/feedetails:: feedetails"></div>
+    </div>
+    <div id="admission" class="tab-pane fade">
+      
+      <div th:replace="/views/responsive/thymeleaf/fragments/common/appointment :: appointments"></div>
+    </div>
+  </div>
+</div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+	
+			
+			
+
+
+
+</body>
+</html>
