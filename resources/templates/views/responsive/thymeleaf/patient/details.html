@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>details</title>
+</head>
+<body>
+
+
+
+
+<form action="#" th:action="@{/info/find}" th:object="${sm}" method="post" >
+
+		<div class="maindivider">
+
+			<div class="detailssection">
+				
+
+				<div class="inputs">
+					<input class="inputboxes" type="text" 
+						th:name="mobilenumber"
+						placeholder="MobileNumber">
+				</div>
+				
+
+			</div>
+			</div>
+			<div>
+			<input type="submit" value="Search">
+			</div>
+
+
+
+		
+
+
+
+	</form>
+
+</body>
+</html>

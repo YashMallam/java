@@ -1,0 +1,163 @@
+<!-- <!-- <!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="searchcomp">
+<link rel="stylesheet" type="text/css" th:href="@{/css/search.css}">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta charset="UTF-8">
+
+
+</head>
+<body>
+	<section th:fragment="searchcomp">
+		<form action="#" th:action="@{/search/details}"
+			th:object="${result}" method="post" >
+
+
+			<div class="maindivider">
+
+				<div class="detailssection">
+
+					<div class="inputs">
+						<input class="inputboxes" type="text" th:name="firstname"
+							placeholder="First Name"> 
+							<input class="inputboxes" type="submit" value="search">
+					</div>
+					
+				</div>
+				
+				</div>
+				
+		
+
+		</form>
+		
+
+		<div th:if="${result == null}"></div>
+		<div th:unless="${result == null}">
+			<p th:text="${result.firstname}"></p>
+			<p th:text="${result.lastname}"></p>
+			<p th:text="${result.age}"></p>
+		</div>
+
+
+
+	</section>
+
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="searchcomp">
+<link rel="stylesheet" type="text/css" th:href="@{/css/search.css}">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta charset="UTF-8">
+</head>
+<body>
+	<!-- <section th:fragment="searchcomp">
+	
+	<form action="#" th:action="@{/search1/result1}" th:object="${result}" method="post">
+
+		<div class="maindivider">
+
+			<div class="detailssection">
+				
+
+				<div class="inputs">
+					<input class="inputboxes" type="text" 
+						th:name="firstname"
+						placeholder="Patient Name">
+				</div>
+				
+
+				
+
+			
+
+			
+				
+
+			
+
+			</div>
+			</div>
+			<div>
+			<input type="submit" value="Search">
+			</div>
+
+
+
+		
+
+
+
+	</form>
+	
+	<div th:if="${result == null}">Null</div>
+		<div th:unless="${result == null}">
+			<p th:text="${result.firstname}"></p>
+			<p th:text="${result.lastname}"></p>
+			<p th:text="${result.age}"></p>
+		</div>
+	</section>
+	 -->
+	 <section th:fragment="searchcomp">
+	
+	<form action="#" th:action="@{/search1/result1}" th:object="${result}" method="post">
+
+		<div class="maindivider">
+
+			<div class="detailssection">
+				
+
+				<div class="inputs">
+					<input class="inputboxes" type="text" 
+						th:name="firstname"
+						placeholder="Patient Name">
+				</div>
+				
+
+			</div>
+			</div>
+			<div>
+			<input type="submit" value="Search">
+			</div>
+
+
+
+		
+
+
+
+	</form>
+	
+	<div th:if="${result == null}">null</div>
+		<div th:unless="${result == null}">
+			<p th:text="${result.firstname}"></p>
+			<p th:text="${result.lastname}"></p>
+			<p th:text="${result.age}"></p>
+		</div>
+	</section>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+ -->

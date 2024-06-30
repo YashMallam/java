@@ -1,0 +1,26 @@
+
+@charset "UTF-8";
+
+.maindivider {
+	background-color: #A3D5FF;
+	border-style: groove;
+	width: 600px;
+	height:150px;
+	margin:10px 10%;
+	
+}
+
+.inputs {
+	padding: 7px;
+}
+.inputboxes{
+	width:120px;
+	
+}
+
+
+
+
+	
+
+  

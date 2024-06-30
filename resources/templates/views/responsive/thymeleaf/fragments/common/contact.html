@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="contact">
+<link rel="stylesheet" type="text/css" th:href="@{/css/section.css}">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+</head>
+<body>
+	<section th:fragment="contact">
+
+				<div class="inputs">
+					<select class="titleSelect-1">
+						<option value="Andrapradesh" selected>Andrapradesh</option>
+						<option value="Telangana">Telangana</option>
+
+					</select>
+				</div>
+
+				<div class="inputs">
+					<select class="titleSelect-1">
+						<option value="City" selected>Select City</option>
+
+
+					</select>
+				</div>
+
+
+
+
+				<div class="inputs">
+					<input class="inputboxes-2" type="text" placeholder="Village name">
+				</div>
+
+
+
+			</div>
+
+
+			<!-- Line 4 -->
+
+			<div class="detailssection">
+
+				<div class="inputs">
+					<input class="addressbar" type="text" placeholder="Village name">
+				</div>
+				<div class="inputs">
+					<div>
+						<select class="titleSelect-2">
+							<option value="idType" selected>Id Proof</option>
+							<option value="Adhaar">Adhaar</option>
+							<option value="pan">Pan Card</option>
+							<option value="voterid">Voter Id</option>
+							<option value="drivinglicense">drivinglicense</option>
+						</select>
+
+					</div>
+					<div class="inputs2">
+						<select class="titleSelect-1">
+							<option value="idType" selected>Refreal type</option>
+
+						</select>
+
+					</div>
+				</div>
+
+
+
+				<div class="inputs">
+					<div>
+						<input class="inputboxes-2" type="text"
+							placeholder="Enter Id number">
+					</div>
+					<div class="inputs2">
+						<select class="titleSelect-1">
+							<option value="idType" selected>select Organization</option>
+
+						</select>
+
+					</div>
+				</div>
+
+				<div class="inputs">
+					<div id="notificationDiv">
+
+						<input type="checkbox" id="notificationCheckbox"> <label
+							for="notificationCheckbox">Send Notification</label>
+					</div>
+
+					<div class="inputs2">
+						<select class="titleSelect-2">
+							<option value="tarrif" selected>Patient Tarrif</option>
+
+						</select>
+
+					</div>
+				</div>
+
+				<div class="inputs">
+					<div>
+						<input class="inputboxes-2" type="text" placeholder="Health issue">
+					</div>
+				</div>
+
+			</div>
+
+
+
+		</div>
+
+
+
+
+	</section>
+
+
+</body>
+</html>

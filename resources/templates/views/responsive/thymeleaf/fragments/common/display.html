@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+	<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Patient Details</h2>
+              
+  <table class="table">
+    <thead>
+      <tr>
+        		<th>firstname</th>
+				<th>lastname</th>
+				<th>gender</th>
+				<th>age</th>
+				<th>Mobile</th>
+				<th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr th:each="data: ${datalist}">
+				<td th:text="${data.firstname}"></td>
+				<td th:text="${data.lastname}"></td>
+				<td th:text="${data.gender}"></td>
+				<td th:text="${data.age}"></td>
+				<td th:text="${data.mobilenumber}"></td>
+				<td th:text="${data.address}"></td>
+			</tr>
+    
+      
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
+
+
+
+
+

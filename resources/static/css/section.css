@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.maindivider {
+	background-color: #A3D5FF;
+	border-style: groove;
+	width: 600px;
+	height:400px;
+	
+}
+
+.detailssection {
+	display: flex;
+	flex:wrap;
+	
+	
+}
+
+.inputs {
+	padding: 7px;
+}
+
+.inputs input::placeholder {
+	color: red;
+}
+
+.inputs1 {
+	padding: 5px;
+}
+
+.inputs2 {
+	padding-top:15px;
+}
+
+.titleSelect {
+	width: 60px;
+	height: 28px;
+	color: red;
+}
+
+.Select {
+	width: 100px;
+	height: 23px;
+}
+
+.inputboxes {
+	width: 150px;
+	height: 23px;
+}
+
+.inputboxes-2 {
+	width: 100px;
+	height: 23px;
+}
+.titleSelect-2{
+	width: 60px;
+	height: 28px;
+	
+}
+
+.titleSelect-1 {
+	width: 203px;
+	height: 28px;
+	
+}
+
+.titleSelect-3 {
+	margin-top:20px;
+	height: 28px;
+	width: 203px;
+}
+
+.smallbox {
+	width: 20px;
+	height: 23px;
+}
+
+.numbers {
+	width: 182px;
+	height: 23px;
+}
+
+.smallbox-selector {
+	width: 100px;
+	height: 28px;
+}
+
+.addressbar {
+	width: 200px;
+	height: 50px;
+}
+.notificationDiv {
+    padding: 30px;
+    padding-bottom:15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+On screens that are 600px or less, set the background color to olive
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+} */
+
+	
+
+  

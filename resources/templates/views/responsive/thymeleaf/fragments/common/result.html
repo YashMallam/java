@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Result Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Result</h1>
+    <p th:text="'FirstName: ' + ${patient.firstname}" />
+    <p th:text="'lastname: ' + ${patient.lastname}" />
+        <p th:text="'Gender: ' + ${patient.gender}" />
+        <p th:text="'DOB: ' + ${patient.age}" />
+         <p th:text="'MobileNo: ' + ${patient.mobilenumber}" />
+          <p th:text="'Address: ' + ${patient.address}" />
+                
+                
+    
+</body>
+</html>
